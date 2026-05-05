@@ -1,0 +1,28 @@
+.fruitmand__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 40px;
+  border: 1px solid #ddd;
+  max-width: 400px;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: #fefefe;
+}
+
+.fruitmand__item.chosen {
+  border-color: #5a8a3a;
+  background-color: #f0f7ed;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: fit-content;
+}
+
+.contact {
+  margin-top: 40px;
+}

@@ -1,0 +1,84 @@
+body {
+  background-color: #fafafa;
+  color: #333;
+}
+
+h1 {
+  color: #2d5016;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.fruitmand {
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.contact {
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 9px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #5a8a3a;
+}
+
+select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: white;
+}
+
+select:focus {
+  outline: none;
+  border-color: #5a8a3a;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  min-height: 80px;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #5a8a3a;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+input[type="radio"] {
+  margin-right: 6px;
+  cursor: pointer;
+}
